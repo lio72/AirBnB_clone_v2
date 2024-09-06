@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-<HTML lang="en">
-    <HEAD>
-        <TITLE>HBNB</TITLE>
-    </HEAD>
-    <BODY>
-        <H1>Number: {{ n }} is {{ evenness }}</H1>
-    </BODY>
-</HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <H1>Number: {{ n }} is {{ evenness }}</H1>
+  <div class="dashboard">
+    <div class="sidebar">
+      <h2>My Portfolio</h2>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my latest work and projects.</p>
+      </header>
+
+      <section class="content">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A short description of project 1. This could be a web app, design, or coding project.</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A short description of project 2. Highlighting skills and tools used.</p>
+            <a href="#">View Project</a>
+          </div>
+          <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Details about project 3. You can add images, links, or more text here.</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
