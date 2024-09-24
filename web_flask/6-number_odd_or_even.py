@@ -8,9 +8,8 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False)
-def index():
-    """returns Hello HBNB!"""
-    return 'Hello HBNB!'
+def porfolio():
+    return render_template('index.html')
 
 
 @app.route('/hbnb', strict_slashes=False)
