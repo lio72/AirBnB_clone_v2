@@ -54,11 +54,7 @@ def numbersandevenness(n):
     return render_template('6-number_odd_or_even.html', n=n,
                            evenness=evenness)
 # laming page
-<<<<<<< HEAD
 @app.route('/landingpage', strict_slashes=False)
-=======
-@app.route('/landingpage/', strict_slashes=False)
->>>>>>> 77978cacebf5ab89a5c153d55624382fdc4a24d4
 def landingpage():
     return render_template('landingpage.html')
 
